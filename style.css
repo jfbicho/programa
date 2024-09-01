@@ -1,0 +1,223 @@
+
+
+
+ body{
+
+ background-color: #dd9f19;/*color del fondo*/
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-attachment: fixed;     
+ 
+     }
+
+        .redes{
+        display: inline-block;  /* bloques alineados verticalmente*/
+        margin-top: 38%;  /* margen de arriba hacia a bajo*/
+        margin-left: 950px;/* margen hacia la izquierda*/
+        background-color:#dd9f19;
+        width: 230px;
+        right: 80px;
+        padding: 20px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+           }
+
+      .redes .bi{
+        margin: 10px 40px;/* margenes entre los enlaces de redes*/
+        width: 60px;
+        height: 60px;
+        font-size: 30px;/*tamaño de los iconos*/
+        text-align: center;/*alineacion de los elementos*/
+        line-height: 40px;/*separacion entre iconos*/
+        background: orange;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+      
+
+
+      }
+       
+
+        .redes .icon1:hover{
+      
+          background: red; 
+        
+        }
+
+
+      .redes .icon2:hover{
+        background: blue;
+      
+        }
+
+      .redes .icon3:hover{
+      background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+        }
+
+
+
+      .redes .icon4:hover{
+        background: green;
+
+         }
+
+      img{
+           
+         width: 700px; /* ancho de la foto*/
+         height: 550px;  /*largo de la foto*/
+         position: absolute;/* permite moverlo dentro del body deforma independiente*/
+         left: 40px;/* movimiento hacia la izquierda*/
+         top: 40px;/* moviientos hacia abajo*/
+          }
+               /* TITULO DEL MENU*/
+               .contenedor1{
+                  font-family: sans-serif;
+                  color: #fff;
+                  display: flex;
+                   position: absolute;/* permite moverlo dentro del body deforma independiente*/
+                   left: 950px;
+                   top:35px;
+                   }
+
+               /*CONTENODOR DE LOS BOTONES DE NAVEGACION*/
+              .interfax{
+              display: flex; /* permite su desplazamiento por todo el elemento*/
+              flex-direction: column;/* pone los elementos en forme de columna*/
+              background: #dd9f19; /*color del contenedor*/
+              padding: 10px 10px;/*ancho del contenedor*/           
+              position: absolute;*/
+              width: 950px;
+              left: 950px;
+              top: 110px;
+
+              }
+             
+
+  /* BOTONES DE NAVEGACION*/
+ .interfax div{
+    padding: 15px 70px; /*TAMAÑO DEL BOTON*/
+    background: #0b0b0b; /*FONDO DEL CONTENEDOR*/
+    font-size: 20px; /*TAMAÑO DE LETRA*/
+    font-weight: 20px;  /*PARA CAMBIAR EL GROZOR DE LA letra*/
+    position: relative;  /*PERMITE MOVERSE DENTRO DEL CONTENEDOR*/
+    border-radius: 30px;  /* BORDE DEL BOTON*/
+    text-align: center;  /*TEXTO ALINIADO AL CENTRO*/
+    margin: 10px;  /*MARGENES ENTRE BOTONES espacio entre ellos*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+
+
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    
+   
+      }
+
+         .interfax div:hover{
+      
+          background-color: #f6f1f1;
+          border: 2px solid rgba(0, 255, 76, 0.77);
+           }
+           /* MANIPULACION DEL TEXTO DE LOS BOTONES*/
+           .interfax div a{
+            text-decoration: none;
+            color: #dd9f19;
+            width: 20px;
+            height: 30px;
+            display: flex; /* PERMITE FLEXIBILIDAD A LOS ELEMENTOS*/
+            flex-direction: column; /**PONE LOS ELEMENTOS EN COLUMNAS*/
+            align-items: center;    /* ALINEA LOS ELEMENTOS EN EL CENTRO*/
+            justify-content: center; /* JUSTIFICACION DEL CENTRADO*/
+            
+           }
+
+          
+             /* TITULO DEL MENU PARA LA PAGINA DE CLIENTES*/
+             .contenedor2{
+              font-family: sans-serif;
+              color: #fff;
+              display: flex;
+               position: absolute;/* permite moverlo dentro del body deforma independiente*/
+               left: 950px;
+               top:35px;
+               }
+
+
+
+
+
+
+
+                 /*CONTENODOR DE LOS BOTONES DE NAVEGACION PARA CLIENTES*/
+              .interfax2{
+                display: flex; /* permite su desplazamiento por todo el elemento*/
+                flex-direction: column;/* pone los elementos en forme de columna*/
+                background: #dd9f19; /*color del contenedor*/
+                padding: 10px 10px;/*ancho del contenedor*/           
+                position: absolute;*/
+                width: 950px;
+                left: 950px;
+                top: 110px;
+  
+                }
+
+                .interfax2 div{
+                  padding: 15px 70px; /*TAMAÑO DEL BOTON*/
+                  background: #0b0b0b; /*FONDO DEL CONTENEDOR*/
+                  font-size: 20px; /*TAMAÑO DE LETRA*/
+                  font-weight: 20px;  /*PARA CAMBIAR EL GROZOR DE LA letra*/
+                  position: relative;  /*PERMITE MOVERSE DENTRO DEL CONTENEDOR*/
+                  border-radius: 30px;  /* BORDE DEL BOTON*/
+                  text-align: center;  /*TEXTO ALINIADO AL CENTRO*/
+                  margin: 10px;  /*MARGENES ENTRE BOTONES espacio entre ellos*/
+                          display: flex;
+                          flex-direction: column;
+                          align-items: center;
+                          justify-content: center;
+                          
+              
+              
+                  width: 60px;
+                  height: 40px;
+                  cursor: pointer;
+                  
+                 
+                    }
+                    .interfax2 div:hover{
+      
+                      background-color: #f6f1f1;
+                      border: 2px solid rgba(0, 255, 76, 0.77);
+                       }
+                       /* MANIPULACION DEL TEXTO DE LOS BOTONES*/
+                       .interfax div a{
+                        text-decoration: none;
+                        color: #dd9f19;
+                        width: 20px;
+                        height: 30px;
+                        display: flex; /* PERMITE FLEXIBILIDAD A LOS ELEMENTOS*/
+                        flex-direction: column; /**PONE LOS ELEMENTOS EN COLUMNAS*/
+                        align-items: center;    /* ALINEA LOS ELEMENTOS EN EL CENTRO*/
+                        justify-content: center; /* JUSTIFICACION DEL CENTRADO*/
+                        
+                       }
+
+                         /* MANIPULACION DEL TEXTO DE LOS BOTONES*/
+           .interfax2 div a{
+            text-decoration: none;
+            color: #dd9f19;
+            width: 20px;
+            height: 30px;
+            display: flex; /* PERMITE FLEXIBILIDAD A LOS ELEMENTOS*/
+            flex-direction: column; /**PONE LOS ELEMENTOS EN COLUMNAS*/
+            align-items: center;    /* ALINEA LOS ELEMENTOS EN EL CENTRO*/
+            justify-content: center; /* JUSTIFICACION DEL CENTRADO*/
+            
+           }
